@@ -1,0 +1,992 @@
+@media (max-width:780px) 
+{
+*{
+box-sizing: border-box;
+    
+    
+    .main
+    {
+        height: 70vh;
+        width: 100%;
+        padding-top: 25vh;
+        
+    }
+
+.nav
+{
+    height: 40px;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    z-index: 0;
+    background-color: rgba(120, 118, 118, 0.978);
+    z-index: 9999999;
+
+
+}
+.main>h1::after
+{
+    content: " ";
+    position: absolute;
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+    width: 50%;height: 10px;
+    bottom: 0;
+    left: 50%;
+    background-size: cover;
+    transform: translate(-50%,0);
+    opacity: 0;
+}
+.nav>h1
+{
+    font-size: 20px;
+    font-weight: 800 ;
+}
+.nav .part2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px;
+    height: 50vh;
+    
+}
+.nav .part2 .class
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.nav .part2 a:nth-last-child(1)
+{
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.nav .part2 a:nth-last-child(1) .green
+{
+    background-color: springgreen;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    left:-100%;
+    height: 100%;
+    transition: left 0.4s ease;
+}
+
+.nav .part2 a:nth-last-child(1):hover .green
+{
+    left: 0;
+}
+
+.main>h1
+{
+    font-size: 2.2rem;
+    font-weight: 100;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+    margin-top: -90px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+
+.main .img
+{
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    left: 5%;
+    top: 18%;
+    border-radius: 10px;
+}
+
+.main .img2
+{
+    height: 140px;
+    width: 150px;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    border-radius: 10px;
+}
+
+.main .img3
+{
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    right: 15%;
+    top: 60%;
+    border-radius: 10px;
+}
+
+.main img
+{
+    transition: margin 1s;
+
+}
+
+.page1
+{   
+    height: 40vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+
+.page1 h1
+{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.page1 h5
+{
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.page1 h1::after
+{
+    content: " ";
+    position: absolute;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    width: 15%;
+    height: 67px;
+    left: 50.5%;
+    background-size: cover;
+    transform: translate(-50%,0);
+    opacity: 0;
+}
+
+
+.about
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    gap:10px;
+    color: aliceblue;
+    position: relative;
+}
+
+.page2
+{
+    width: 100%;
+    height: 70vh; 
+    display: flex;
+    
+}
+.box1   
+{
+    height: 50vh;
+    width: 50%;
+    position: relative;
+   
+}
+
+.box1 .img4 img
+{
+    height: 40%;
+    width: 40%;
+    left: 45%;
+    top: 2%;
+    position: absolute;
+    border-radius: 20px;
+
+}
+
+.box1 .img5 img
+{
+    height: 50%;
+    width: 40%;
+    top: 2%;
+    left: 1%;
+    position: absolute;
+    border-radius: 20px;
+
+}
+
+.box1 .img6 img
+{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    border-radius: 20px;
+}
+
+.box1 .img7 img
+{
+    height: 41%;
+    width: 40%;
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 2%;
+
+}
+.box2   
+{
+    margin-top: 80px;
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+   
+
+}
+
+.box2 h1
+{
+    position: absolute;
+    top: 20px;
+
+    font-size: 1rem;
+    font-weight:lighter;
+}
+
+.box2 p
+{
+    font-size: 11px;
+    line-height: 12px;
+    position: absolute;
+    top: 20%;
+}
+
+
+.box2 .bio
+{
+    display: flex;
+    position: absolute;
+    top: 70%;
+    height: 50px;
+    width: 90%;
+    gap: 30px;
+    justify-content: center;
+    color: black;
+}
+
+.box2 .bio img
+{
+    height: 30px;
+    width:30px;
+    border-radius: 90%;
+}
+
+.bio p
+{
+    font-size: 1px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.bio .services
+{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    gap: 5px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.bio .services img
+{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+.bio .services .hara
+{
+    background-color: springgreen;
+    width: 100%;
+    left: -100%;
+    height: 100%;
+    transition: left 0.8s ease;
+    position: absolute;
+}
+
+.services:hover .hara
+{
+    left: 0;
+} 
+
+.page3
+{
+    height: 30vh;
+    width: 100%;
+    margin-top: -30vh;
+    
+}
+.page3 h1
+{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+.page3 h1::after
+{
+    content: " ";
+    position: absolute;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    width: 11%;
+    height: 80px;
+    left: 25.5%;
+    margin-top: -0.5%;
+    background-size: cover;
+    transform: translate(-50%,0);
+    opacity: 0;
+}
+
+.c1 
+{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+
+
+}
+
+.c2
+{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+
+
+}
+
+.c3 
+{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+
+
+}
+
+.c4 
+{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    gap: 10px;
+    margin-top: 100px;
+    justify-content: center;
+    
+
+}
+
+
+.page4
+{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 40px;
+    text-align: center;
+    position: relative;
+    
+
+}
+
+.left 
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    
+}
+
+.left h1
+{
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 100;
+   
+    
+}
+
+.left .img1
+{
+    position: absolute;
+    z-index: 999;
+    height: 5%;
+    width: 20%;
+    left: 150px;
+    top: 20px;
+}
+
+.left img
+{
+    height: 100%;
+    width: 100%; 
+    position: absolute;
+    left: 20px;
+}
+
+
+.right
+{
+    position: relative;
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: reds;
+
+
+
+}
+
+.right h1
+{
+    position: absolute; 
+    font-size: 1rem;
+    color: rgb(10, 10, 10);
+    font-weight: 100;
+    text-align: left;
+    font-weight: 900;
+    bottom: 20px;
+}
+
+.right .img0
+{
+    position: absolute;
+    z-index: 999;
+    height: 10%;
+    width: 20%;
+    left: 100px;
+    top: 20px;
+
+}
+
+.right img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+
+
+.bio1
+{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 0px;
+    
+
+}
+
+.bio1 img
+{
+
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio1 p
+{
+    font-size: 1rem;
+    border-radius: 20px;
+  
+
+}
+
+.bio1 a p{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-size: 1.1rem;
+    z-index: 1;
+}
+
+.bio1 .services
+{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100px;
+    border-radius: 20px;
+    gap: 5px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.bio1 .services img
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 99;
+    border-radius: 50px;
+}
+
+
+.bio1 .services .hara
+{
+    background-color: springgreen;
+    width: 100%;
+    left: -100%;
+    height: 100%;
+    transition: left 0.8s ease;
+    position: absolute;
+    
+}
+
+.services:hover .hara
+{
+    left: 0;
+} 
+
+
+
+.footer
+{
+    margin-top: 20vh;
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.footer .footer_box 
+{
+    position: absolute;
+    height: 30vh;
+    width: 70vw;
+    left: 15%;
+    
+    
+   
+    
+    
+}
+
+.footer .footer_box img
+{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    
+}
+.footer_box .color1
+{
+    
+    background-color: rgba(0, 0, 0, 0.504);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+}
+
+.footer_box .color1 h3::after
+{
+    content: " ";
+    position: absolute;
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+    width: 10%;height: 8px;
+    top: 38%;
+    left: 31%;
+    background-size: cover;
+    transform: translate(-50%,0);
+    opacity: 0;
+}
+
+
+.footer_box .color1 h3   
+{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer_box .bio11
+{
+
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer_box .bio11 img
+{
+    height: 30px;
+    width: 6%;
+    border-radius: 50px;
+    position: relative;
+}
+
+.bio11 p
+{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.services1
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.services1 p
+{
+    font-size: 10px;
+    font-weight: 800;
+    color: white;
+    display: flex;
+    text-decoration: none;
+    z-index: 99;
+}
+
+.bio11 .services1 img
+{
+    height: 30px;
+    width: 50px;
+    z-index: 99;
+}
+
+.bio11 .services1 .hara
+{
+    background-color: springgreen;
+    width: 100%;
+    left: -100%;
+    height: 100%;
+    transition: left 0.6s ease;
+    position: absolute;
+}
+
+.services1:hover .hara
+{
+    left: 0;
+} 
+
+.footer_last
+{
+    margin-top: 58px;
+    height: 90%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.footer_last .footer_last_upprer
+{
+    
+    height: 50%;
+    width: 85%;
+    display: flex;
+    color: white;
+    text-decoration: none;    
+    display: none;
+}
+
+.footer_last_upprer .upper_box1
+{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: left;
+    align-items: flex-start;
+   
+}
+
+.footer_last_upprer .upper_box1 h1
+{
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.footer_last_upprer .upper_box1 h1::after
+{
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    content: " ";
+    position: absolute;
+    width: 50%;height: 20%;    
+    left: 16.5%;
+    background-size: cover;
+    transform: translate(-50%,0);
+    opacity: 0;
+}
+
+.footer_last_upprer .upper_box1 .about1 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    color: aliceblue;
+    position: relative;
+    text-decoration: none;
+}
+
+
+.footer_last_upprer .upper_box1
+{
+    height: 100%;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: left;
+    align-items: flex-start;
+   
+}
+
+.footer_last_upprer .upper_box1 h1
+{
+    font-size: 3rem;
+    font-weight: 400;
+
+}
+
+.footer_last_upprer .upper_box1 h1::after
+{
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    content: " ";
+    position: absolute;
+    width: 50%;height: 20%;    
+    left: 16.5%;
+    background-size: cover;
+    transform: translate(-50%,0);
+}
+
+.footer_last_upprer .upper_box2
+{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+
+.footer_last_upprer .upper_box2 a h3
+{
+    
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+
+}
+.footer_last_upprer .upper_box2  p
+{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.749);
+   
+
+}
+
+.footer_last_upprer .upper_box3
+{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+ 
+}
+
+.footer_last_upprer .upper_box3  h3
+{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+
+}
+.footer_last_upprer .upper_box3  p
+{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.703);
+
+}
+.footer_last_upprer .upper_box4
+{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.footer_last_upprer .upper_box4  h3
+{
+     
+    font-size: 1.5rem;
+
+}
+.footer_last_upprer .upper_box4  p
+{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.756);
+
+}
+
+.footer_last_upprer .upper_box5
+{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    flex-direction: column;
+    
+}
+
+.footer_last_upprer .upper_box5 .meta
+{
+    height: 22%;
+    width: 60%;
+    
+}
+
+.footer_last_upprer .upper_box5 .google
+{
+    height: 33%;
+    width: 61%;
+    
+}
+
+.footer_last_upprer .upper_box5 .microsoft
+{
+    height: 15%;
+    width: 62%;
+}
+
+hr
+{
+    width: 84%;
+}
+
+.footer_last_end
+{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+.end_left
+{
+    font-size: 1.4rem;
+    display: flex;
+}
+
+.end_right
+{
+    display: flex;
+    gap: 10px;
+
+}
+
+.end_right a
+{
+    height: 50px;
+    width: 50px;
+    
+}
+.end_right a img
+{
+    height: 40px;
+    width: 40px;
+    z-index: 99;
+
+}
+
+.end_right p span
+{
+    color: rgb(254, 97, 0);
+    font-size: 1.2rem;
+    
+}
+
+
+
+
+
+}
+}
